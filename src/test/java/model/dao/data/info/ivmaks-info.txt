@@ -1,0 +1,9 @@
+{
+  "login" : "ivmaks",
+  "password" : "1234",
+  "name" : "Ivan",
+  "surname" : "Maksimchuk",
+  "patronymic" : "Mikhailovich",
+  "statements" : "[Software Engineering-2150.txt, Cybersecurity-2150.txt]",
+  "group" : "2150"
+}

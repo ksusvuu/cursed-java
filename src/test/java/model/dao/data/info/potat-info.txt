@@ -1,0 +1,9 @@
+{
+  "login" : "potat",
+  "password" : "potatoforever",
+  "name" : "Denis",
+  "surname" : "Churilov",
+  "patronymic" : "Romanovich",
+  "statements" : "[Cybersecurity-2150.txt, Data Science-2150.txt]",
+  "subjects" : "[Web Development, Cybersecurity, Artificial Intelligence, Data Science, Computer Architecture, Cloud Computing]"
+}

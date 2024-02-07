@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px;
+    background: #66493a;
+    /* box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.25); */
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    min-height: 34px;
+}
+
+.icon {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(172, 167, 167);
+    border: 2px solid;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.icon span {
+    margin-top: 2.5px;
+    color: #e0e0e0;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+aside {
+    float: left;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+    background: #ead4c9;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+aside button {
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #ead4c9;
+    /* box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+aside .button {
+    text-align: center;
+    padding: 7px;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: fit-content;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #ead4c9;
+    /* box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25); */
+    white-space: pre-wrap;
+}
+
+aside .button:hover {
+    cursor: pointer;
+}
+
+aside .button:active {
+    /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25) inset; */
+}
+
+main {
+    border-radius: 4px;
+    background: #ead4c9;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+article {
+    min-width: 400px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    background: #ead4c9;
+    /* box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25) inset; */
+    padding: 10px;
+    display: block;
+    max-width: 100%;
+}
+
+#teacher-subjects {
+    margin: 0 15px;
+}
+
+.subject ul {
+    margin-left: 20px;
+}
+
+.subject ul li {
+    margin: 3px 0;
+    width: fit-content;
+}
+
+.subject ul li:hover {
+    cursor: pointer;
+    color: rgb(37, 76, 100);
+}
+
+aside form button {
+    text-align: center;
+    min-width: 150px;
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #ead4c9;
+    /* box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25); */
+    white-space: pre-wrap;
+}
+
+aside form {
+    width: fit-content;
+}

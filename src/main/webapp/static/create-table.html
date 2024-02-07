@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statement</title>
+    <link rel="stylesheet" href="\digital-statement\styles\main-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <span>Ведомость</span>
+        <div class="icon" id="user-icon"><span class="material-symbols-outlined">person</span></div>
+    </header>
+    <aside>
+    </aside>
+    <main>
+        <section>
+            <article class="table-article">
+                <form action="\digital-statement\table-creator" method="post" accept-charset="UTF-8">
+                    <input type="text" name="group">
+                    <select name="subject" id="subject-selector"></select>
+                    <button type="submit">Создать</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <script type="module" src="\digital-statement\scripts\home-page-creator.js"></script>
+    <script type="module" src="\digital-statement\scripts\new-table-selector.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statement</title>
+    <link rel="stylesheet" href="\digital-statement\styles\main-style.css">
+    <link rel="stylesheet" href="\digital-statement\styles\popup-style.css">
+    <link rel="stylesheet" href="\digital-statement\styles\table-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <span>Ведомость</span>
+        <div class="icon" id="user-icon"><span class="material-symbols-outlined">person</span></div>
+    </header>
+    <aside></aside>
+    <main>
+        <section>
+            <article class="table-article" id="statement-article">
+                <div class="row-view">
+                    <div class="cell-view-table">
+                        <table id="statement-table">
+                        </table>
+                    </div>
+                    <div class="cell-view-button">
+                        <span class="material-symbols-outlined" id="add-column"
+                            onclick="addColumnBack();">add_circle</span>
+                    </div>
+                    <div class="cell-view">
+                        <span class="material-symbols-outlined" id="opt-button">construction</span>
+                    </div>
+                </div>
+                <div class="row-view">
+                    <div class="cell-view-button">
+                        <span class="material-symbols-outlined" id="add-row" onclick="addRowBack();">add_circle</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <div class="pop-up-menu" id="pop-up-menu">
+        <button type="button" id="add-content" onclick="setContent();">Добавить запись</button>
+        <button type="button" id="clear-cell" onclick="clearCell();">Отчистить поле</button>
+        <button type="button" id="remove-row" onclick="removeRow();">Удалить ряд</button>
+        <button type="button" id="remove-column" onclick="removeColumn();">Удалить колонку</button>
+    </div>
+
+    <script type="module" src="\digital-statement\scripts\home-page-creator.js"></script>
+    <script type="module" src="\digital-statement\scripts\table-creator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cSpell.enabled": false,
+    "maven.terminal.favorites": [
+        {
+            "command": "clean install",
+            "debug": false
+        }
+    ]
+}

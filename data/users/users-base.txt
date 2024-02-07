@@ -1,0 +1,19 @@
+[{
+  "login" : "elinmaks",
+  "password" : "iamelin"
+}, {
+  "login" : "ivmaks",
+  "password" : "1234"
+}, {
+  "login" : "olgaLifa",
+  "password" : "1234"
+}, {
+  "login" : "potat",
+  "password" : "potatoforever"
+}, {
+  "login" : "ksusvuu",
+  "password" : "13112002"
+}, {
+  "login" : "vv3rr4",
+  "password" : "iamvera"
+}]

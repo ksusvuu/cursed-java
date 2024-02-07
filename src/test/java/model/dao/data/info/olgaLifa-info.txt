@@ -1,0 +1,9 @@
+{
+  "login" : "olgaLifa",
+  "password" : "1234",
+  "name" : "Olya",
+  "surname" : "Lifanova",
+  "patronymic" : "Sergeevna",
+  "statements" : "[]",
+  "group" : "2150"
+}

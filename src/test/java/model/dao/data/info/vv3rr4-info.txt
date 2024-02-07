@@ -1,0 +1,9 @@
+{
+  "login" : "vv3rr4",
+  "password" : "iamvera",
+  "name" : "Veronika",
+  "surname" : "Suprun",
+  "patronymic" : "Egorovna",
+  "statements" : "[]",
+  "subjects" : "[Mobile App Development, Human-Computer Interaction, DevOps, IT Project Management]"
+}

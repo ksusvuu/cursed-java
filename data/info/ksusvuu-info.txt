@@ -1,0 +1,9 @@
+{
+  "login" : "ksusvuu",
+  "password" : "13112002",
+  "name" : "Kseniya",
+  "surname" : "Pishchik",
+  "patronymic" : "Artemovna",
+  "statements" : "[Software Engineering-2150.txt]",
+  "subjects" : "[Database Management Systems, Operating Systems, Computer Networks, Software Engineering]"
+}

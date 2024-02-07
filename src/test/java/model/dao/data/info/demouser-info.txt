@@ -1,0 +1,9 @@
+{
+  "login" : "demouser",
+  "password" : "1234",
+  "name" : "Demo",
+  "surname" : "Demov",
+  "patronymic" : "Demovich",
+  "statements" : "[Some-file.txt, New-Some-file.txt]",
+  "group" : "1234"
+}

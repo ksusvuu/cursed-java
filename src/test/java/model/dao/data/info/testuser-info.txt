@@ -1,0 +1,9 @@
+{
+  "login" : "testuser",
+  "password" : "4321",
+  "name" : "Demo",
+  "surname" : "Demova",
+  "patronymic" : "Demovna",
+  "statements" : "[Some-file.txt, New-Some-file.txt]",
+  "subjects" : "[Demo Subjects, Veeery useful subject]"
+}
